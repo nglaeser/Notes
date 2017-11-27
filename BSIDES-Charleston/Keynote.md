@@ -3,13 +3,12 @@ BSides Charleston
 27-Nov-2017  
 
 # BSides Charleston: Keynote Speaker
-###### 11-Nov-2017
-Speaker: Jack Daniel
+**11-Nov-2017   
+Speaker: Jack Daniel**
 
 ## A History of Cybersecurity (Unsung Heroes)
 
-###### Brief Shout-out
-Becky Bace recently passed away; Went into consulting after NSA work
+###### Brief shout-out to Becky Bace, who recently passed away
 
 #### Nevil Maskeline
 - Victorian-era magician & inventor
@@ -43,4 +42,6 @@ Becky Bace recently passed away; Went into consulting after NSA work
 - Applications in a wide area of fields: economics, meteorology, medicine, astronomy, agriculture, immunology
 - Before, crypto was used to achieve **confidentiality**; now, it is needed to ensure **integrity**
 
-###### "I really didn't foresee the Internet. But then, neither did the computer industry. Not that that tells us very much of course – the computer industry didn't even foresee that the century was going to end." -Douglas Adams
+
+Finally, a closing remark:  
+> "I really didn't foresee the Internet. But then, neither did the computer industry. Not that that tells us very much of course – the computer industry didn't even foresee that the century was going to end." -Douglas Adams
