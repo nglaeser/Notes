@@ -1,9 +1,9 @@
-Noemi Glaeser
-Grace Hopper Celebration of Women in Computing
-Orlando, FL – October 4-6, 2017
+Noemi Glaeser  
+Grace Hopper Celebration of Women in Computing  
+Orlando, FL – October 4-6, 2017  
 
 # Finding Your Dream Job with a Ph.D.
-**4-Oct-2017
+**4-Oct-2017  
 Ming C. Lin, UNC  
 A.J. Bernheim Brush, Microsoft**
 
@@ -64,7 +64,7 @@ Negotiate!
 - Campus, flexibility
 - Space
 
-**With a Ph.D., make sure coding skills are visible on your résumé and up-to-date**
+**Note: With a Ph.D., make sure coding skills are visible on your résumé and up-to-date**
 
 ---
 
@@ -110,12 +110,14 @@ Negotiate!
   - University committee
   - Professional organization (program, funding, society, journal editor/chair/conference organizer) - but be selective as to which org
 
-| +      | –                             |
+
+| Pros   | Cons                          |
 |--------|-------------------------------|
 |Freedom | Need to find your own funding |
 |Work on the frontier | Must balance carefully (reseearch, teaching, service, & life) |
 |Develop your vision | |
 |Teach & inspire | |
+
 
 #### Preparation While Getting your Ph.D.
 - Research: read broadly - look out for future ideas
@@ -135,7 +137,7 @@ Usually not tenured, but rather on contract
 - Have undergrads help with your research
 - Attend meetings
 - Service
-**Resources**: SIGCSE
+**Resources**: SIGCSE   
 **Advantages**: closer with undergrads, less travel, more flexible for family
 
 ---
@@ -153,21 +155,21 @@ General advice:
 - Assert yourself
 - **Resources**: CRA-W Graduate Cohort Workshop
 
-##### Schedule
-**Early fall**
+#### Schedule
+##### Early fall
 - Prep your CV and statement
 - Maintain your website
 - Find letter writers
 - Review your materials
-**September – December**
+##### September – December
 - Apply
 - Track your application status
 - Participate in some early interviews
-**January – May**
+##### January – May
 - Interview
 - Negotiate your offer
 
-General process:
+General process:   
 Phone interview --> on-site interview --> Presentation/Research talk/Teaching demo --> Meals --> Thank you notes!
 
 On-site interview
