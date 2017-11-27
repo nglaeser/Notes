@@ -2,21 +2,19 @@
    PCDC/SECCDC Training   
    26-Nov-2017   
 
-# Learning to Firewalk
-## BSides Charleston
-###### 11-Nov-2017
-###### Track 2, 10:00 A.M.
-Speaker: Brian Austin @rainman`_a
+# BSides Charleson: Learning to Firewalk
+###### 11-Nov-2017 -  Track 2, 10:00 A.M.
+Speaker: Brian Austin @rainman\_a   
 GuidePoint Security - Herndon, VA
 
-### Top 5 Certs
+## Top 5 Certs
 - CompTIA Security+ (Course: $2,995 - Exam: $300)
 - EC Council Certified Ethical Hacker (Course: $3,750 - Exam: $500)
 - SANS GIAC Security Essentials (Course: $6,210 - Exam: $1,699)
 - ISC2 CISSP (Course: $2,500 - Exam: $599)
 - ISACA CISM (Course: $4,495 - Exam: $595)
 
-# Free Resources
+## Free Resources
 [Cybrary.it](Cybrary.it)
 - Free, open source learning for cybersecurity, IT, etc.
 
@@ -75,7 +73,7 @@ Other
 - Twitter
 - Slack channels: open_osynt
 
-# Low-Cost Resources
+## Low-Cost Resources
 [humblebundle.com/books](humblebundle.com/books)
 - Monthly resource
 - Collection of 20 books, IT theme/area per month
@@ -113,8 +111,8 @@ Other
 - Volunteer! 
   - Cyberpatriot program
 
-Through the Hacking Glass
-- Project by Brian Austin (@rainman_a) and Joe Gray (@C_3PJoe)
+"Through the Hacking Glass"
+- Project by Brian Austin (@rainman\_a) and Joe Gray (@C\_3PJoe)
 - Free mentorship
 - Free resources
 - Community-based development
