@@ -1,6 +1,6 @@
-   Noemi Glaeser  
-   PCDC/SECCDC Training   
-   26-Nov-2017   
+Noemi Glaeser  
+BSides Charleston   
+27-Nov-2017   
 
 # BSides Charleson: Learning to Firewalk
 ###### 11-Nov-2017 -  Track 2, 10:00 A.M.
