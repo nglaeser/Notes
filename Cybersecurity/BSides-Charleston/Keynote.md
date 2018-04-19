@@ -10,7 +10,7 @@ Speaker: Jack Daniel**
 
 ###### Brief shout-out to Becky Bace, who recently passed away
 
-#### Nevil Maskeline
+#### Nevil Maskelyne
 - Victorian-era magician & inventor
 - First electronic hacker, in 1903
 
