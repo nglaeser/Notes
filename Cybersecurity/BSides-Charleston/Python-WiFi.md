@@ -66,7 +66,7 @@ HTTP is stateless, so cookies are used to track the state. Getting the cookie me
 
 ---
 
-## Demo
+## Demos
 
 `airmon-ng start wlan1` (drop into air monitor mode)  
 `wilist wlan1mon channel` (to show channels and current channel)
