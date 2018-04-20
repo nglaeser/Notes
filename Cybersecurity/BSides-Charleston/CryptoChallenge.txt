@@ -1,0 +1,156 @@
+crypto1: bit.ly/BSCHSCrypto
+BSides CHS Crypto Challenge Starter
+
+VjJWc1kyOXRaU0IwYnlCMGFHVWdRR3hwYm5ScGJHVWdZM0o1Y0hSdklHTm9ZV3hzWlc1blpTQm1iM0lnUWxOcFpHVnpJRU5JVXk0Z1JXRmphQ0JqYkhWbElIZHBiR3dnWjJsMlpTQjViM1VnZEdobElHeHBibXNnZEc4Z2RHaGxJRzVsZUhRZ2NHbGxZMlVnYjJZZ2RHaGxJSEIxZW5wc1pTNGdRV3hzSUd4cGJtdHpJSE4wWVhKMElIZHBkR2dnYUhSMGNITTZMeTlpYVhRdWJIa3ZRbE5EU0ZNc0lHRnVaQ0IzYUdWdUlIbHZkU0JoY0hCbGJtUWdkR2hsSUNoallYTmxJSE5sYm5OcGRHbDJaU2tnWm14aFp5d2dlVzkxSUhkcGJHd2daMlYwSUhSb1pTQnVaWGgwSUhOMFpYQXVJRlJvWlNCbWFXNWhiQ0J6ZEdWd0lIZHBiR3dnWW1VZ1pHVnNhWFpsY21sdVp5QmhiaUJUVFZNZ2JXVnpjMkZuWlM0Z1ZHaGxJR3hsZG1Wc0lERWdabXhoWnlCcGN6b2dWMlZzWTI5dFpRPT0=
+
+double base64 encoding
+
+Welcome to the @lintile crypto challenge for BSides CHS. Each clue will give you the link to the next piece of the puzzle. All links start with https://bit.ly/BSCHS, and when you append the (case sensitive) flag, you will get the next step. The final step will be delivering an SMS message. The level 1 flag is: Welcome
+flag: Welcome
+
+**************
+crypto2: bit.ly/BSCHSWelcome
+Hip to be square
+
+MCREWOLD
+YATAPTAN
+NSTTXEHA
+EEEINTWS
+XIRSISYU
+TTNTHILO
+FSEXACTI
+LAGISOBV
+
+read in spiral
+
+My next flag is obvious and lowercase its exactly what pattern this text is in
+
+flag: spiral
+
+**************
+crypto3: bit.ly/BSCHSspiral
+Too much TV
+
+Awumbquma bpm ivaemza izm aquxtm, awumbquma bpmg omb pizlmz. Jcb ib bpm mvl wn bpm lig, em'dm owb bw smmx lwqvo Akqmvkm <-- ntio
+                                                                                                                        <-- flag
+Caesar shift of 18
+
+Sometimes the answers are simple, sometimes they get harder. But at the end of the day, we've got to keep doing Science <-- flag
+flag: Science
+
+**************
+crypto4: bit.ly/BSCHSScience
+Science Specialist Log - 11/11
+
+Science Specialist Log - 11/11
+
+We received this message across subspace today. I originally thought it was Klingon, but there seems to be a fine grained message in here. I can't help but think that the timing of this message is a clue to it's decoding.
+
+Mkvb tlb l ovyd hvukdq klk. Lm bjnd ujvym, mklm hlrd hly'm bmvcc wd l cvd. Mkd ydem oclz vb Hjyhdymqlmd.
+
+In any case, I'm on duty in a few minutes. I know I'll eventually get to the bottom of this.
+
+Michael Burnham
+
+???? some weird caesar shift magic???
+
+Guess last sentence is "The next flag is Hjyhdymqlmd."
+
+use rumkin cryptogram solver --> Concentrate
+
+flag: Concentrate
+
+*************
+crypto5: bit.ly/BSCHSConcentrate
+Classic Concentration
+
+If I concentrate long enough, I can see the patterns..... I think.
+
+-[--->+<]>-.[---->+++++<]>-.---.+++++++++++++.-------------.---[->+++<]>+.-[->+++<]>+.+[---->+<]>+++.[->+++<]>+.+++++++++++.+++++++++++.-[->+++<]>-.+[--->+<]>+++.------.+[---->+<]>+++.[->+++<]>+.-[->+++<]>.[-->+++++++<]>.[----->++<]>+.--[--->+<]>-..+++[->+++<]>.+++++++++++++.----.-[->+++++<]>-.-[--->++<]>-.+++++.-[->+++++<]>-.---[->++++<]>.------------.---.--[--->+<]>-.+[----->+<]>.------------.--[--->+<]>-.--.---------.-[--->+<]>.[-->+++++<]>++.++[--->++<]>.[->++<]>+.[--->+<]>+++.----------.-[--->+<]>-.---[->++++<]>.-----.-----------.---.+[--->+<]>+++.-[-->+++++<]>.------------.++++[->++<]>+.+[-->+<]>++.[->+++<]>+.+[->+++<]>.--[--->+<]>-.+[->+++<]>.++++++++++++.-.-----------.++.+++++++++.++++++.--.+++[->+++<]>++.--[--->+<]>-.+++[->+++<]>.-.-[--->+<]>-.+++++[->+++<]>.-.-[->+++++<]>-.---[->++++<]>.------------.---.--[--->+<]>-.++[->+++<]>.-----.++.-[--->+<]>--.[---->+<]>+++.---[->++++<]>.------------.-------.--[--->+<]>-.[---->+<]>+++.--[->++++<]>-.[->+++<]>.--[--->+<]>-.[->+++<]>+.+++++++++++.+++++++++++.-[->+++<]>-.+[--->+<]>+++.------.+[---->+<]>+++.---[->++++<]>-.++++[->+++<]>..++++++++.[->+++++<]>-.---[->++++<]>.-----.[--->+<]>-----.+++++[->+++<]>.+++++++.+[->+++<]>.+++++++++++++.++++[->+++<]>+.++++++++++++.--.+++.----.---.------.--.--[--->+<]>-.+++[->+++<]>.--[--->+<]>-.---[->++++<]>.------------.+.+++++.-------.++++++++++++.+[++>---<]>.++[--->++<]>.+[->++<]>+.-[-->+++<]>--.+++++++++++++.-[->+++++<]>-.--[->++++<]>+.----------.++++++.-[---->+<]>+++.++[->+++<]>.+++.--.--[--->+<]>--.---.-------------.--[--->+<]>-.+++++[->+++<]>.++++++.-.[---->+<]>+++.---[->++++<]>.------------.-------.--[--->+<]>-.[---->+<]>+++.---[->++++<]>.------------.---.--[--->+<]>-.+[----->+<]>+.---------.[--->+<]>+.----.[---->+<]>+++.++[->+++<]>.++++++.-----------.++++++.-[--->+<]>--.-[--->++<]>-.++++++++++.+[---->+<]>+++.++++[->++<]>.-[->+++++<]>++.[--->+<]>+.--[->+++<]>-.+++.+.--.++++++.++++.------------.+++++++++++.--[->+++<]>+.
+
+Brainfuck
+https://copy.sh/brainfuck/
+
+There's always a pattern in the matrix. And today, I've concentrated on the fact that we always seem to overcomplicate things. Can you figure out that the next flag is Hexadecimal?
+flag: Hexadecimal
+
+************
+crypto6: bit.ly/BSCHSHexadecimal
+Block Cipher? lol
+
+0b8e35d8162a89f5aca0614e784683bb
+0cc175b9c0f1b6a831c399e269772661
+0800fc577294c34e0b28ad2839435945
+a2a551a6458a8de22446cc76d639a9e9
+d529e941509eb9e9b9cfaeae1fe7ca23
+edc1e3ea2ca4939a55f1edf84a1fb85e
+8fc42c6ddf9966db3b09e84365034357
+d0cab90d8d20d57e2f2b9be52f7dd25d
+327a6c4304ad5938eaf0efb6cc3e53dc
+a2a551a6458a8de22446cc76d639a9e9
+9dc673463c0e68b0d7eb86708309f232
+
+MD5 hashes
+sometimes a hash is not enough the next flag is waffles
+flag: waffles
+
+************
+crypto7: bit.ly/BSCHSwaffles
+What about Barb?
+
+45 86 96 37 02 e6 56 87 47 02 d6 56 37 37 16 76 56 02 96 37 02 26 27 f6 57 76 86 47 02 47 f6 02 97 f6 57 02 26 97 02 16 e6 e6 f6 97 96 e6 76 02 26 96 47 02 d6 16 e6 96 07 57 c6 16 47 96 f6 e6 e2 02 45 86 56 02 e6 56 87 47 02 66 c6 16 76 02 96 37 02 34 27 f6 37 37 77 f6 27 46 e2
+
+02 most common = space
+e2 = .
+e2 02 45 86 56 02 e6 56 87 47 02 66 c6 16 76 02 96 37 02 34 27 f6 37 37 77 f6 27 46 e2
+.  _  T  h  e  _  n  e  x  t  _  f  l   a  g  _  i  s _  C   r  o  s  s  w  o  r  d .
+
+flag: Crossword
+
+***********
+crypto8: bit.ly/BSCHSCrossword
+One final request
+
+What a person does during the day to make money
+What a band performs to make money
+What a false sense of security will do you "to sleep"...aka how security vendors make money
+
+Now, put the text together and tell me who I am.
+
+Work, job, save, sell, code, career, occupation, gamble
+songs, music, show, gig, set, tour, performance, album
+sell, lure, secure, put, sing, lull, guide, enthrall, put, go, safe, entice, breach, lie, get/git, back ; produce
+
+work, job
+show, gig, set
+lull, back, lie
+
+job = 562, sum  = 13
+gig = 444, sum = 12
+lull = 5855,sum = 23
+13 + 12 + 23 = 48
+
+562 - 444 - 5855
+text this number
+who are you?
+USCCyber
+youwinpoints! (is flag for CTF submitter)
+
+lull, sell, lure, sing, safe, back
+
+work - set - back
+work setback??
+
+__ - set - safe
+ready - set - go?
+work - show - ___ : works how ___
+__ - set - lie
+__ - show - lie
+__ - show - git
+
+job - set - lull
+
+"Tell me who I am ... you're a goldfish"
+
+previous flags:
+Welcome, spiral, Science, Concentrate, Hexadecimal, waffles, Crossword
