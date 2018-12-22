@@ -25,6 +25,7 @@ Notes from University of South Carolina [Cybersecurity Club](http://www.usccyber
 
 ### USC Cybersecurity Club
 - **16-Nov-2018:** Introduction to Containers, including a container-hacking demo
+- Slides for almost all other previous talks can be found [here](https://www.usccyber.org/past-talks.html)
 
 ### PCDC/SECCDC
 - **26-Nov-2018:** Training notes for Palmetto Cyber Defense Competition (PCDC)/Southeast Collegiate Cyber Defense Competition (SECCDC),
