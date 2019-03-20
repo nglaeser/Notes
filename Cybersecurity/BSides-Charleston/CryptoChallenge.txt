@@ -107,6 +107,8 @@ e2 02 45 86 56 02 e6 56 87 47 02 66 c6 16 76 02 96 37 02 34 27 f6 37 37 77 f6 27
 
 flag: Crossword
 
+This is ASCII encoding, but with the nibbles flipped (e.g. 2e encodes a period in ASCII, and here a period is encoded by e2).
+
 ***********
 crypto8: bit.ly/BSCHSCrossword
 One final request
