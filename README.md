@@ -18,6 +18,9 @@ Notes from the University of South Carolina ACM chapter meetings.
 - **5-Sep-2018:** Introductory talk on how to succeed in college/CS/life
 - **3-Oct-2018:** Tips and tricks for using the text editor `vim`
 - **24-Oct-2018:** Cascading Style Sheets (CSS)
+- **23-Jan-2019:** Intro to Python
+- **13-Feb-2019:** LaTeX and TikZ
+- **20-Feb-2019:** Tetris in Conway's Game of Life
 
 ## Cybersecurity
 
@@ -36,7 +39,7 @@ These are found in the folder [BSides-Charleston](Cybersecurity/BSides-Charlesto
 - 10-Nov-2017: **Python+WiFi** workshop held by stryngs on hacking WiFi with Python commands, packages, and scripts
 - 11-Nov-2017: **Keynote** speech by Jack Daniel on cybersecurity then and now
 - 11-Nov-2017: **Learning to Firewalk** by Brian Austin, a talk about how to get into cybersecurity (a long, useful list of resources)
-- 11-Nov-2017: **Cryptography Challenge** in the BSides CTF, run by [@lintile](https://twitter.com/lintile). Our team (consisting of James Coman and myself) won the challenge, contributing a significant portion of CTF points to our university team and putting us in 3rd place in the full CTF. These notes are very ad hoc as they were written in a rush during the challenge; a more polished walkthrough is presented in our talk to the USC Cybersecurity club ([slides](https://docs.google.com/presentation/d/1qebj1XR-cpxRaIZtb6xdViS8auePCj1k0spnPpfJJ6w/edit?usp=sharing)).
+- 11-Nov-2017: **Cryptography Challenge** in the BSides CTF, run by [@lintile](https://twitter.com/lintile). Our team (consisting of James Coman and myself) won the challenge, contributing a significant portion of CTF points to our university team and putting us in 3rd place in the full CTF. These notes are very ad hoc as they were written in a rush during the challenge; a more polished walkthrough is presented in our talk to the USC Cybersecurity club ([slides](https://docs.google.com/presentation/d/1qebj1XR-cpxRaIZtb6xdViS8auePCj1k0spnPpfJJ6w/edit?usp=sharing)). The script `crypto7.py` accompanies these notes.
 
 ### BSides Charleston 2018
 Notes from Security BSides in Charleston, SC on November 9-10, 2018. Same thing about date names.  
@@ -56,3 +59,5 @@ My friends James Coman, William Edwards, Brady O'Leary, and I gathered at my fri
 - **15-Dec-2018:** Background on FPGAs and Verilog
 - **16-Dec-2018:** ALU design (project 2) and introducing the regfile (project 3)
 - **17-Dec-2018:** MIPS command overview; CPU to be implemented in projects 4-6
+
+Both markdown and HTML versions are available - the former is more readable in GitHub, whereas the latter looks nice on [my public Keybase](https://keybase.pub/nglaeser/Notes/), where these notes can also be found.
