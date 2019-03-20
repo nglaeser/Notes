@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<p>17 Dec 2018<br />
+CSCE 611.5</p>
+<h2 id="lecture-5">Lecture 5</h2>
+<h3 id="review-of-mips-architectures">Review of MIPS architectures</h3>
+<p>3 instruction formats:</p>
+<ul>
+<li><strong>R-type</strong>: Register type
+<ul>
+<li>Computational instructions (arith, logic, shift, comparison)</li>
+<li>Fields:
+<ul>
+<li>rs, rt: 5 bits each, source registers</li>
+<li>rd: 5 bits, destination register</li>
+<li>op: 6 bits, opcode (0 for R-type instructions)</li>
+<li>funct: 6 bits, function processor, i.e. what operation to perform</li>
+<li>shamt: 5 bits, shift amount (only used for shift instructions, otherwise it's 0)</li>
+</ul></li>
+<li>ex.
+<ul>
+<li>Assembly: <code>add $1, $2, $3</code></li>
+<li>instruction mem:</li>
+</ul>
+<table border="1">
+<thead>
+<tr class="header">
+<th></th>
+<th>op</th>
+<th>rs</th>
+<th>rt</th>
+<th>rd</th>
+<th>shamt</th>
+<th>funct</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>bits</td>
+<td>6</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</tbody>
+</table></li>
+</ul></li>
+<li><strong>I-type</strong>: Immediate operand
+<ul>
+<li>branches, load/stores, computational instructions with constant operand (e.g. increments)</li>
+</ul></li>
+<li><strong>J-type</strong>: Jumping
+<ul>
+<li>Only two instruction, J and JAL</li>
+</ul></li>
+</ul>
+</body>
+</html>

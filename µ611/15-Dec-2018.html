@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<p>15 Dec 2018<br />
+CSCE 611.5</p>
+<h2 id="lecture-1">Lecture 1</h2>
+<h3 id="why-hdlfpgas">Why HDL/FPGAs?</h3>
+<ul>
+<li>Moore's Law is dead</li>
+<li>Replacing CPUs with GPUs or other specialized chips</li>
+<li>FPGAs are way slower (10-100x) than CPUs, but very parallelizable</li>
+</ul>
+<h3 id="field-programmablel-gate-arrays-fpgas">Field Programmablel Gate Arrays (FPGAs)</h3>
+<ul>
+<li>115,000 Logic Blocks, each several logic cells which consist of a look-up table (LUT) and flip-flop (FF)</li>
+<li>Logic blocks connected with switch matrix (like telephone hookups)</li>
+<li>IOB = I/O block</li>
+<li>CLB = clock logic block</li>
+<li>DCM = clock input?</li>
+<li>Embedded multiplier because common and faster to embed than simulate with LUTs</li>
+<li>logic elements (several per logic block) contain LUT</li>
+</ul>
+<h3 id="fpga-design-flow">FPGA Design Flow</h3>
+<ol style="list-style-type: decimal">
+<li>Design system
+<ul>
+<li>Hardware description language (HDL)
+<ul>
+<li>VHDL</li>
+<li>Verilog</li>
+</ul></li>
+<li>schematics</li>
+</ul></li>
+<li>Simulate using testbench</li>
+<li>Synthesis: convert HDL to logic gates</li>
+<li>Map: Convert larger gates to smaller ones that fit on hardware</li>
+<li>Place: put each gate on slot in FPGA</li>
+<li>Route: make connections between gates</li>
+<li>Generate config file, program FPGA</li>
+<li>Test on FPGA</li>
+</ol>
+<p>Steps 5-6 take the most time. 3-7 in compilation.</p>
+<h2 id="lecture-2">Lecture 2</h2>
+<h3 id="verilog">Verilog</h3>
+<ul>
+<li>Off-the-shelf components
+<ul>
+<li>&quot;structural HDL&quot;</li>
+</ul></li>
+<li>Combinational behavior (clock-independent)
+<ul>
+<li>F(inputs) = output</li>
+</ul>
+<pre><code>assign a = b and c;
+
+// * denotes that sensitivity list contains all sensitivities
+// whenever an event in the sensitivity list occurs, execute the statement in the block
+// with *, it&#39;s essentially continuous
+always @(*) a = b and c; </code></pre></li>
+<li>Sequential behavior (clock-dependent)
+<ul>
+<li>F(inputs, input history) = output</li>
+</ul>
+<pre><code>always @(posedge clk)
+    a = up ? a + 8&#39;b1 : a - 8&#39;b1;
+    /* C ternary operator:
+       if up then a + 8&#39;b1, else a- 8&#39;b1
+       8&#39;b1 indicates 8-bit *b*inary value 1 */
+
+// multiple statements with begin and end
+always @(posedge clk) begin
+    /* lots;
+       of;
+       lines;
+       of;
+       code; */
+end</code></pre></li>
+<li>Syntax
+<ul>
+<li>case-sensitive</li>
+<li>no names starting with numbers</li>
+<li>ignores whitespace, underscores</li>
+<li>Comments with <code>//</code> or <code>/* multiline */</code></li>
+</ul></li>
+<li><p>Structural Modeling - Hierarchy</p>
+<pre><code>module and3(input a, b, c, output y);
+    assign y = a &amp; b &amp; c;
+endmodule
+
+module inv(input a, output y);
+    assign y = ~a;
+endmodule
+
+module nand3(input a, b, c, output y);
+    wire n1; # stateless, literal connection between two &quot;ports&quot;
+    and3 andgate(a, b, c, n1); // create instance of and3 called andgate
+
+    // preferred instantiation with specific argument setting
+    and3 andgate(.y(n1), .b(b), .a(a), c(c));
+
+    inv inverter(n1, y);
+endmodule</code></pre></li>
+<li><p>Can define size of inputs and outputs</p>
+<pre><code>module gates(input  [3:0]   a, b,
+             output [3:0]  y1, y2, y3, y4, y5);
+    // definition...
+endmodule</code></pre></li>
+<li>Operators
+<ul>
+<li><code>&amp;</code>: bitwise and</li>
+<li><code>|</code>: bitwise or</li>
+<li><code>^</code>: xor</li>
+<li><code>~</code>: not</li>
+<li>etc. (see slide 15)</li>
+<li><code>{}</code>: concatenation of numbers/digits within braces</li>
+</ul></li>
+<li><code>reg</code> is a stateful signal</li>
+<li><code>wire</code> is stateless</li>
+<li>Blocking vs. Non-blocking Assignments
+<ul>
+<li>Non-blocking (<code>&lt;=</code>)
+<ul>
+<li>occurs simultaneously with others (takes effect at end)</li>
+<li><p>use with sequential behavior (clock-dependent)</p>
+<pre><code>reg n1;
+always @(posedge clk);
+begin
+    n1 &lt;= d;
+    q &lt;= n1;
+end</code></pre></li>
+</ul></li>
+<li>Blocking (<code>=</code>)
+<ul>
+<li>occurs in order it appears in file</li>
+<li><p>use with combinational behavior (clock-independent)</p>
+<pre><code>reg n1;
+always @(posedge clk);
+begin
+    n1 = d;
+    q = n1;
+end</code></pre></li>
+</ul></li>
+</ul></li>
+</ul>
+</body>
+</html>
