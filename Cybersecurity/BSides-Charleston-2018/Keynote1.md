@@ -2,6 +2,7 @@ Keynote #1
 Vitali Kremez  
 @vk\_intel  
 Flashpoint  
+10-Nov-2018  
 
 ### Charting the Next Cybercrime Frontier, or Evolution of Criminal Intent
 
