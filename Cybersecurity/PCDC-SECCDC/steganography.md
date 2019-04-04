@@ -6,7 +6,7 @@
     * Unix `file`
     * unzipping into source XML
 * Steganography
-    * stegsolve
+    * [stegsolve](https://www.wechall.net/forum/show/thread/527/Stegsolve_1.3/page-1)
 * Metadata
     * exif
 
@@ -75,7 +75,7 @@ unzip Last-ditch-flag-quest.zip
 - Dig around in the file structure. In this case, the flags (plural!) can be found in `docProps/core.xml`
 - Flag: **i found Nemo**
 - Flag: **Yet another flag**
-- Another flag can be found by opening the original document itself, in white font (you can also see it in `word/document.xml`
+- Another flag can be found by opening the original document itself, in white font (you can also see it in `word/document.xml`)
 - Flag: **White Font!**
 
 ### Example
