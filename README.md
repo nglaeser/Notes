@@ -55,7 +55,7 @@ Notes from the 2017 Grace Hopper Celebration of Women in Computing held in Orlan
 
 ## µ611
 
-My friends James Coman, William Edwards, Brady O'Leary, and I gathered at my friend Charles Daniel's house for a couple of days after final exams to work through the curriculum of South Carolina's Advanced Digital Design course (CSCE 611); we called it "micro-611". We tried to complete six projects on FPGAs, leading up to the construction of a fully functional MIPS processor. I was only able to stay for three days, so the remainder of these notes will be added in the spring when I finish going over the material with Charles (he's got the FPGAs, after all).  
+My friends James Coman, William Edwards, Brady O'Leary, and I gathered at my friend Charles Daniels's house for a couple of days after final exams to work through the curriculum of South Carolina's Advanced Digital Design course (CSCE 611); we called it "micro-611". We tried to complete six projects on FPGAs, leading up to the construction of a fully functional MIPS processor. I was only able to stay for three days, so the remainder of these notes will be added in the spring when I finish going over the material with Charles (he's got the FPGAs, after all).  
 - **15-Dec-2018:** Background on FPGAs and Verilog
 - **16-Dec-2018:** ALU design (project 2) and introducing the regfile (project 3)
 - **17-Dec-2018:** MIPS command overview; CPU to be implemented in projects 4-6
